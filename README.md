@@ -39,7 +39,7 @@ karma start karma.conf.js
 correctly. You'll have to run: ``node_modules/karma/bin/karma start karma.conf.js`` instead.
 
 #Continuous Integration with Travis CI
-Travis CI is a Continuous Integration tool that performs builds of your project every time you push to GitHub. This is very helpful, as it makes
+Travis CI is a Continuous Integration tool that performs builds of your project every time you push to GitHub (this includes running all the tests for your project). This is very helpful, as it makes
 keeping track of your testing over the lifetime of a project very easy. Having a build/test history makes finding where, or when, your project broke
 less of a nightmare.
 
